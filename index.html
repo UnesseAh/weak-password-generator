@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This app simulates when your parental unit is really mad at you">
+    	<meta name="keywords" content="mom, dad, yell">
+
+		<title>Angry Parent Simulator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<img src="img/chaddog.png" alt="">
+		<h1><span>Weak</span> Password Generator</h1>
+
+		<div id="div">
+			<label for="words numbers symbols">Words:</label>
+
+			<select class="box" name="passwords" id="words">
+				<option value="" id="myWords">--random words--</option>
+				<option value="sandpit-think">sandpit-think</option>
+				<option value="unison-raven">unison-raven</option>
+				<option value="only-qualifier">only-qualifier</option>
+				<option value="fraternal-levers">fraternal-levers</option>
+				<option value="dullness-ravioli">dullness-ravioli</option>
+				<option value="tameness-stubbly">tameness-stubbly</option>
+			</select>
+
+			<label for="password-select">Numbers:</label>
+
+			<select class="box" name="passwords" id="numbers">
+				<option value="" id="myNumbers">--random numbers--</option>
+				<option value="120">120</option>
+				<option value="738">738</option>
+				<option value="946">946</option>
+				<option value="103">103</option>
+				<option value="384">384</option>
+				<option value="647">647</option>
+				<option value="497">497</option>
+				<option value="240">240</option>
+				<option value="926">926</option>
+			</select>
+
+			<label for="password-select">Symbols:</label>
+
+			<select class="box" name="passwords" id="symbols">
+				<option value="" id="mySymbols">--random symbols--</option>
+				<option value="@#$">@#$</option>
+				<option value="§%&">§%&</option>
+				<option value="={/">={/</option>
+				<option value="~*()">~*()</option>
+				<option value="^&-?">^&-?</option>
+				<option value="_]>">_]></option>
+				<option value="¥§°^">¥§°^</option>
+				<option value=">`">,>,">`">,</option>
+				<option value="-_+=">-_+=</option>
+			</select>
+		</div>
+					
+
+		<button  id="yell" type="button" name="button">generate</button>
+		<h2 id="placeToYell"></h2>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
